@@ -5,7 +5,7 @@ NL = os.linesep # new line characters.
 nl_len = len(NL) # length of NL characters.
 s = 0 # sum.
 m = 0 # max.
-i = 0 # elf ID.
+i = 1 # elf ID.
 max_id = 0 # elf ID associated with the max.
 with open("input_day01.txt") as myfile:
     for line in myfile:
