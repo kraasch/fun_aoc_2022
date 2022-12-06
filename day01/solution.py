@@ -7,7 +7,7 @@ s = 0 # sum.
 m = 0 # max.
 i = 1 # elf ID.
 max_id = 0 # elf ID associated with the max.
-with open("input_day01.txt") as myfile:
+with open("input.txt") as myfile:
     for line in myfile:
         # end the current addition.
         if line == NL:
